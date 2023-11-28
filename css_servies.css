@@ -1,0 +1,118 @@
+/* Reset some default styles to have a clean slate */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #FFA500; /* Change the color on hover to orange */
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #555;
+}
+
+ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Add styles for the "About Us" section */
+#about {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#about h2 {
+    color: #333; /* Dark gray heading color */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 15px;
+}
+
+#about p {
+    color: #555; /* Text color for paragraphs */
+    font-size: 16px; /* Standard font size for text */
+    margin: 10px 0;
+}
+
+#about p:first-of-type {
+    font-weight: bold; /* Make the first paragraph bold for emphasis */
+}
+
+/* Add styles for the "Services" section */
+#services {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#services h2 {
+    color: #333; /* Dark gray heading color */
+    font-size: 24px; /* Larger font size for headings */
+    margin-bottom: 15px;
+}
+
+#services ul {
+    list-style: disc;
+    margin-left: 20px;
+    text-align: left;
+}
+
+#services li {
+    color: #555; /* Text color for list items */
+    font-size: 16px; /* Standard font size for list items */
+    margin: 10px 0;
+}
